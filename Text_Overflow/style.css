@@ -1,0 +1,14 @@
+h1 {
+  width: 200px;
+  background-color: aqua;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+h3 {
+  background-color: aquamarine;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}

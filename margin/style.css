@@ -1,0 +1,29 @@
+div > img {
+  width: 40%;
+}
+div > h2 {
+  font-size: 40px;
+}
+.container {
+  margin: 0px auto;
+  width: 600px;
+  background-color: lightpink;
+  text-align: center;
+}
+.header {
+  margin: 0 auto;
+  width: 600px;
+  height: 100px;
+  background-color: lightgreen;
+  padding: 10px;
+}
+.avater {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+.header img:not(img:first-child) {
+  margin-left: -50px;
+}
