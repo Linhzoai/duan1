@@ -1,0 +1,25 @@
+.box1 {
+  width: 200px;
+  height: 500px;
+  background-color: rgb(148, 2, 2);
+  background-attachment: scroll;
+  overflow: hidden;
+}
+.box1 p {
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+.box2 {
+  width: 200px;
+  height: 500px;
+  color: rgb(212, 44, 44);
+  background-image: url(/img/Mèo\ Đẹp\ Ngầu.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 200px;
+  overflow: scroll;
+}

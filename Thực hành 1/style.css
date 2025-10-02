@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  background-color: #fffcf4;
+}
+/* --------conmon-------------- */
+a {
+  text-decoration: none;
+}
+.main_content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+/* ------- CSS riêng biệt ----------- */
+.body-header {
+  display: flex;
+  align-items: center;
+  padding: 36px 0 8px;
+}
+.body-header .nav ul {
+  display: flex;
+}
+.body-header .nav {
+  margin-left: auto;
+}
+.nav a {
+  font-family: Poppins;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  padding: 8px 21px;
+  position: relative;
+}
+.nav a:hover {
+  color: #5f5b53;
+  text-shadow: 1px 0 0 currentColor;
+}
+.nav .active a::after {
+  display: block;
+  content: "";
+  width: 12px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  left: 21px;
+  bottom: 6px;
+}
+.btn {
+  font-size: 1.6rem;
+  font-weight: 600;
+  background: #171100;
+  border-radius: 24.5px;
+  color: #fffcf4;
+  padding: 11px 16px;
+  line-height: 50px;
+  min-width: 118px;
+}
+.sign-up {
+  margin-left: 49px;
+  min-width: 144px;
+}
+.header.fixed {
+  position: sticky;
+  top: -28px;
+}
