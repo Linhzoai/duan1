@@ -1,0 +1,30 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  /* line-height: 1.5 ; */
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  background-color: yellow;
+  height: 200px;
+  line-height: 200px;
+}
+div p:nth-of-type(even) {
+  text-align: right;
+}
+div p:nth-of-type(odd) {
+  text-align: left;
+}
+a {
+  text-align: center;
+  display: inline-block;
+}
+div:has(> a) {
+  text-align: center;
+}
+.container ~ p {
+  text-indent: 40px;
+}

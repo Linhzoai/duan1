@@ -1,0 +1,22 @@
+CSS Attribute
+text-decoration: none //bỏ gạc chân
+text-decoration: underline // thêm gạch chân
+text-decoration: line-through //thêm gạch ngang
+text-decoration: overline //gạch trên đầu
+// Có thể định kiểu của dấu gạch,màu sắc, kích thước
+text-decoration: underline dotted blue 5px
+------------------------------------------
+text-indent: thụt lề
+----------------------------------------
+text-transform
+ text-transform: uppercase // viết hoa tất cả các từ
+ text-transform: lowercase // Viết thường tất cả chứ cái
+ text-transform: capitalize // Viết hoa tất cả chứ cái đầu tiên
+ ----------------------------------------
+ white-space: 
+  white-space: normal // trạng thái mặc định
+   white-space: nowrap// ko tự động xuống dòng
+    white-space: pre // Giữ nguyên định dạng
+    -----------------------------------
+Word-break:  break-all // Văn bản tự động xuống dòng khi bị giới hạn
+

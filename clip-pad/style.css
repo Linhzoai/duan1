@@ -1,0 +1,24 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background: url(/img/Mèo\ Đẹp\ Ngầu.jpg);
+  background-position: center;
+  background-size: cover;
+  clip-path: inset(20px 30px);
+  clip-path: circle(50%);
+  clip-path: inset(10px round 20px 80px 80px 20px);
+  clip-path: polygon(
+    50% 0%,
+    100% 40%,
+    60% 40%,
+    60% 100%,
+    40% 100%,
+    40% 40%,
+    0% 40%,
+    50% 0%
+  );
+}
+p {
+  font-size: 50px;
+  text-shadow: 20px 20px r jhjjhh ed;
+}

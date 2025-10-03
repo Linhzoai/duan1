@@ -1,0 +1,64 @@
+/* Chọn các thẻ a có liên kết chưa click vào  */
+a:link {
+  text-decoration: none;
+  color: red;
+}
+/* Chọn các thẻ a có liên kết đã click vào */
+a:visited {
+  color: green;
+}
+/* Chọn các thẻ a khi rê chuột vào */
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+img {
+  border: 1px solid black;
+  width: 700px;
+}
+.div_empty:has(input:invalid) {
+  width: 100px;
+  height: 100px;
+  background: yellow; /* Khi input rỗng */
+}
+
+.div_empty:has(input:valid) {
+  width: 100px;
+  height: 100px;
+  background: lightblue; /* Khi input có dữ liệu */
+}
+h1:target {
+  color: red;
+}
+/* Chonnj thẻ a là con trực tiếp của thẻ li */
+ul > li > a:visited {
+  color: purple;
+}
+/* Dấu space "a  b": Tất cả b là con của a */
+/* Dấu cộng "a + b": Chọn thẻ b cùng cấp sát ngay sau phần từ a  */
+/* Dâu ngã "a ~ b": Chọn tất cả thẻ b đồng cấp sau thẻ a*/
+div ~ p {
+  background-color: pink;
+}
+/* first:child : Chọn các thẻ là thẻ con đầu tiên*/
+li:first-child {
+  color: orange;
+  background-color: lightgray;
+}
+
+/* first-of-typr: chonj thẻ con đầu tiên */
+p:nth-of-type(even) {
+  color: blue;
+  background-color: lightgray;
+}
+p:nth-child(2) {
+  background-color: lightgreen;
+}
+/* [for$="x"] → chọn phần tử có for kết thúc bằng "x".
+
+[for*="x"] → chọn phần tử có for chứa "x" ở bất kỳ đâu.
+
+[for|="x"] → chọn phần tử có for="x" hoặc bắt đầu "x-".
+
+[for~="x"] → chọn phần tử có for chứa từ "x" (ngăn cách bằng khoảng trắng).
+ */

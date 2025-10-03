@@ -1,0 +1,10 @@
+#opacity:checked ~ img {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+#visiability:checked ~ img {
+  visibility: hidden;
+}
+#display:checked ~ img {
+  display: none;
+}

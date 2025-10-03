@@ -1,0 +1,110 @@
+.box {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: green;
+}
+.box3 {
+  background-color: blue;
+}
+h1 {
+  background-color: purple;
+}
+.content .box:hover {
+  position: relative;
+  left: 200px;
+}
+/*absolute: Phần tử thực sự bị đưa ra khỏi luồng ban đầu  */
+/* relative Phần tử ko bị đưa ra khỏi luồng ban đầu */
+/* position: sticky định vị phần tử dính lại theo thẻ cha gần nhất có thành cuộn scroll bar
+ */
+.noti {
+  font-size: 5rem;
+  margin: 5rem;
+  color: cornflowerblue;
+  position: relative;
+  /* background-color: yellowgreen; */
+}
+.number_noti {
+  padding: 1rem;
+  background-color: red;
+  border-radius: 20px;
+  color: white;
+  font-size: 1rem;
+  position: absolute;
+  left: 3.5rem;
+  top: -0.5rem;
+}
+.mes_fix {
+  color: blue;
+  font-size: 2rem;
+  position: fixed;
+  right: 0;
+  bottom: 6rem;
+}
+.nav {
+  background-color: #555;
+  color: white;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 5rem;
+}
+.content2 {
+  margin: 2px auto;
+  background: lightgray;
+  width: 300px;
+  position: relative;
+}
+.content2 > .box1 {
+  width: 300px;
+  height: 300px;
+  z-index: 5;
+}
+.content2 > .box2 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 5rem;
+  left: 3rem;
+  z-index: 2;
+}
+
+.content2 > .box3 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 7.5rem;
+  left: 6rem;
+  z-index: 3;
+}
+.content2 > a {
+  margin: 0 auto;
+}
+.main {
+  margin-top: 80px;
+  width: 300px;
+  height: 500px;
+  overflow: auto;
+}
+.main h2 {
+  background-color: orangered;
+  height: 50px;
+  line-height: 50px;
+  word-break: break-all;
+  position: sticky;
+  top: 0;
+}
